@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #1d1e1d;
+    height: 80px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#logo-texto {
+    color: grey;
+    min-width: 300px;
+    margin-left: 50px;
+    position: absolute;
+    left: 5px;
+    /* background-color: orangered; */
+}
+
+/* Menu Principal */
+.menu-principal {
+    text-align: center;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    margin-right: 25px;
+}
+/* --------------- */
+
+.menu-assistente img {
+    width: 100%;
+    height: 450px;
+}
+
+.bg {
+    background-image: url("../img/soad.jpg");
+    width: 100vw;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+
+}
